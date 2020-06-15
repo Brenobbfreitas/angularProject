@@ -12,6 +12,8 @@ import { NavComponent } from './components/template/nav/nav.component'
 
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { TextBoxComponent } from './components/template/text-box/text-box.component';
+
 
 
 @NgModule({
@@ -19,7 +21,8 @@ import { MatListModule } from '@angular/material/list';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    TextBoxComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +30,8 @@ import { MatListModule } from '@angular/material/list';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
